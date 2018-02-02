@@ -3,137 +3,48 @@
     <head>
         <title>Users Data</title>
         <link rel = "stylesheet" href = css/bootstrap.min.css>
-        <link rel = "" href="displayUserDetails.html">
+        <!--<link rel = "" href="displayUserDetails.html">-->
     </head>
     <body>
         <h3 id = "heading" style="text-align: center" >User Details</h3>
+
+        <!-- To display dynamic table-->
         <div class = "container">
-
-
-            <div id = "displayTable"></div>
-            <!--<table class="table table-hover">
-                <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First Name</th>
-                    <th scope="col">Last Name</th>
-                    <th scope="col">Date Of Birth</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Mobile</th>
-                    <th scope="col">View</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td id = "fn1"></td>
-                    <td id = "ln1"></td>
-                    <td id = "dob1"></td>
-                    <td id = "em1"></td>
-                    <td id = "mob1"></td>
-                    <td id = "sub1" >
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalOne" onclick = "userOneDisplay()">View</button>
-
-                        <div class="modal fade" id="modalOne" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="userOne">User 1 Info</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div id = "m1fn"></div>
-                                        <div id = "m1ln"></div>
-                                        <div id = "m1dob"></div>
-                                        <div id = "m1email"></div>
-                                        <div id = "m1mobile"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td id = "fn2"></td>
-                    <td id = "ln2"></td>
-                    <td id = "dob2"></td>
-                    <td id = "em2"></td>
-                    <td id = "mob2"></td>
-                    <td id = "sub2" >
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalTwo" onclick = "userTwoDisplay()">View</button>
-
-                        <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="userTwo"></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div id = "m2fn"></div>
-                                        <div id = "m2ln"></div>
-                                        <div id = "m2dob"></div>
-                                        <div id = "m2email"></div>
-                                        <div id = "m2mobile"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td id = "fn3"></td>
-                    <td id = "ln3"></td>
-                    <td id = "dob3"></td>
-                    <td id = "em3"></td>
-                    <td id = "mob3"></td>
-                    <td id = "sub3" >
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalThree" onclick = "userThreeDisplay()">View</button>
-
-                        <div class="modal fade" id="modalThree" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="userThree"></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div id = "m3fn"></div>
-                                        <div id = "m3ln"></div>
-                                        <div id = "m3dob"></div>
-                                        <div id = "m3email"></div>
-                                        <div id = "m3mobile"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </td>
-                </tr>-->
-                </tbody>
-            </table>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src = "js/bootstrap.min.js"></script>
-            <script type = "text/javascript" src = "script.js"></script>
+            <div id = "displayTable">
+            </div>
         </div>
+
+        <!--To View First Modal(1) -->
+
+            <div class="modal fade" id="modal0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="userOne">User 1 Info</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id = "m1fn"></div>
+                            <div id = "m1ln"></div>
+                            <div id = "m1dob"></div>
+                            <div id = "m1email"></div>
+                            <div id = "m1mobile"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- All Script tags-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src = "js/bootstrap.min.js"></script>
+        <script type = "text/javascript" src = "script.js"></script>
     </body>
 
 

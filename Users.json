@@ -1,6 +1,6 @@
 [
-    {"FirstName": "sam", "LastName": "Tom","DOB": "15-1-1993", "E-Mail": "sam@gmail.com", "Mobile": "94909", "View": "" },
-    {"FirstName": "Hari", "LastName": "k","DOB": "18-5-1993", "E-Mail": "hari@gmail.com", "Mobile": "11111", "View": ""},
-    {"FirstName": "Abhish", "LastName": "P","DOB": "22-10-1993", "E-Mail": "abhish@gmail.com", "Mobile": "22222", "View": ""},
-    {"FirstName": "Sandeep", "LastName": "J","DOB": "20-5-1993", "E-Mail": "sandeep.j@gmail.com", "Mobile": "55555", "View": ""}
+    {"FirstName": "sam", "LastName": "Tom","DOB": "15-1-1993", "eMail": "sam@gmail.com", "Mobile": "94909" },
+    {"FirstName": "Hari", "LastName": "k","DOB": "18-5-1993", "eMail": "hari@gmail.com", "Mobile": "11111"},
+    {"FirstName": "Abhish", "LastName": "P","DOB": "22-10-1993", "eMail": "abhish@gmail.com", "Mobile": "22222"},
+    {"FirstName": "Sandeep", "LastName": "J","DOB": "20-5-1993", "eMail": "sandeep.j@gmail.com", "Mobile": "55555"}
 ]
